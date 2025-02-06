@@ -1,0 +1,28 @@
+ __PANEL INSTALLATION__ :
+ 1)  sudo su
+ 2) apt update
+ 3) apt upgrade
+ 4) curl -o install.sh https://hydrenllc.us.kg/installer.txt && chmod +x install.sh && bash install.sh
+
+  __NODE INSTALLATION__ :
+ 
+ 1) Open new terminal (click + icon)
+ 2) git clone https://github.com/hydralabs-beta/daemon.git
+ 3) cd daemon
+ 4) npm install
+ 5) node .
+
+                                   enjoy your hosting
+
+relaunch your panel:
+
+ 1) cd panel
+  2) sudo su
+  3) node .
+
+  start your node->   
+
+  4) create new terminal (+)
+  5) cd daemon
+  6) sudo su
+  7) node . 
