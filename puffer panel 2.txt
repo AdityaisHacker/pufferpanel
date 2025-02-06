@@ -1,0 +1,17 @@
+                                              puffer panel
+
+1) apt update
+2) apt install sudo
+3) apt install systemctl
+
+4) curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh?any=true | sudo bash
+
+5) sudo apt update
+6) sudo apt-get install pufferpanel
+7) sudo pufferpanel user add
+8) sudo systemctl enable --now pufferpanel              
+
+
+again start your panel:
+      
+sudo systemctl enable --now pufferpanel
