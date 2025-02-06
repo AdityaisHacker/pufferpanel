@@ -1,0 +1,19 @@
+                                               __hydra dashboard__
+
+dash+panel install:
+
+1) sudo su
+2) bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/dashboard/refs/heads/main/dash)
+
+Node install:
+
+1) git clone https://github.com/hydralabs-beta/daemon.git
+2) cd daemon
+3) npm i 
+4) paste your node configure
+5) pm2 start . 
+
+                                     __relaunch dash & panel__
+
+1) pm2 start index
+2) pm2 start daemon                                   
